@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode-Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border">
+        <div class="container d-flex justify-content-between">
+            <div class="d-flex">
+                <i class="fa-solid fa-location-dot mt-2"></i>
+                <select class="form-select form-select-sm border-0" name="place" id="place"
+                    aria-label="Language select">
+                    <option value="En">EN</option>
+                    <option value="Cn">CN</option>
+                    <option value="De">DE</option>
+                    <option value="Fr">FR</option>
+                    <option value="Ko">KO</option>
+                    <option value="Ja">JA</option>
+                    <option value="It">IT</option>
+                    <option value="Es">ES</option>
+                    <option value="En-us">EN-US</option>
+                </select>
+            </div>
+
+            <i class="fa-regular fa-user"></i>
+
+        </div>
+    </nav>
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand rode">
+                <img src="https://cdn.rode.com/website/images/logo/RODE_Logo_87x51_RGB.svg" alt="rode" width="80">
+            </a>
+
+            <!-- Toggle button for mobile view -->
+            <button class="navbar-toggler md-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse  middle navbar-collapse justify-content-evenly" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">SOLUTIONS</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">APPS</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">USER GUIDES</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">SUPPORT</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="nav-link d-md-block d-none"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+    </nav>
+
+    <!-- Content Sections -->
+    <div class="container-fluid caster">
+        <!-- Section 1 -->
+        <div class="row d-flex justify-content-end align-items-center caster-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-dark d-none d-lg-block">
+                <img src="./image/RODECasterProII_PL_P_01.svg" alt="rode" class="w-75">
+                <br> <br>
+                <h1>Meet the White Collection</h1>
+                <p>Say hello to the White Collection featuring the RØDECaster Duo, PodMic, NTH-100, and now the
+                    RØDECaster Pro II.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1">SHOP NOW</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/caster.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center py-3">
+                <br>
+                <img src="./image/RODECasterProII_PL_P_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Meet the White Collection</h1>
+                <p>Say hello to the White Collection featuring the RØDECaster Duo, PodMic, NTH-100, and now the
+                    RØDECaster Pro II.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1 mb-3">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wireless p-2 p-md-0">
+        <!-- Section 2 -->
+        <div
+            class="row section2 d-flex justify-content-end align-items-center wireless-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-white d-none d-lg-block">
+                <img src="./image/WIME_PL_PI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Introducing the Dual Transmitter Edition</h1>
+                <p>Compact and simple to use, the Wireless ME is the perfect grab-and-go wireless microphone for content
+                    creators. Now available in a Dual Set.</p>
+                <a href="#" class="btn btn-light w-25 rounded-pill button3">SHOP NOW</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/wireless.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center text-white p-3">
+                <br>
+                <img src="./image/WIME_PL_PI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Introducing the Dual Transmitter Edition</h1>
+                <p>Compact and simple to use, the Wireless ME is the perfect grab-and-go wireless microphone for content
+                    creators. Now available in a Dual Set.</p>
+                <a href="#" class="btn btn-light w-25 rounded-pill button3 mb-3">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mike p-2 p-md-0">
+        <!-- Section 3 -->
+        <div
+            class="row d-flex justify-content-end align-items-center caster-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-dark d-none d-lg-block">
+                <img src="./image/INTERVIEWPRO_PL_P_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Pristine Wireless Audio in Your Hands</h1>
+                <p>The Interview PRO is a broadcast-quality handheld wireless microphone with 32-bit float on-board
+                    recording and intelligent GainAssist technology – ideal for capturing professional audio in a wide
+                    range of content creation, media and broadcast applications.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1">SHOP NOW</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/mike.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center">
+                <br>
+                <img src="./image/INTERVIEWPRO_PL_P_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Pristine Wireless Audio in Your Hands</h1>
+                <p>The Interview PRO is a broadcast-quality handheld wireless microphone with 32-bit float on-board
+                    recording and intelligent GainAssist technology – ideal for capturing professional audio in a wide
+                    range of content creation, media and broadcast applications.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1 mb-3">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid wirelesspro2 p-2 p-md-0">
+        <!-- Section 4 -->
+        <div
+            class="row d-flex justify-content-end align-items-center wireless-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-dark d-none d-lg-block">
+                <img src="./image/WIGO PRO PL P 01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>The Most Powerful Wireless Mic Ever</h1>
+                <p>The Wireless PRO is the ultimate wireless solution, packed full of powerful features like 32-bit
+                    float, timecode and GainAssist that offer incredible flexibility for recording pristine audio for
+                    your content.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1">SHOP NOW</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/wire.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center text-dark">
+                <br>
+                <img src="./image/WIGO PRO PL P 01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>The Most Powerful Wireless Mic Ever</h1>
+                <p>The Wireless PRO is the ultimate wireless solution, packed full of powerful features like 32-bit
+                    float, timecode and GainAssist that offer incredible flexibility for recording pristine audio for
+                    your content.</p>
+                <a href="#" class="btn btn-dark rounded-pill button1 mb-3">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid black p-2 p-md-0">
+        <!-- Section 5 -->
+        <div
+            class="row d-flex justify-content-end align-items-center caster-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-white d-none d-lg-block">
+                <img src="./image/THE PODCASTING RANGE-white.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Your Podcast Starts Here</h1>
+                <p>Our industry-leading range of podcasting equipment offers everything you need to record a podcast
+                    start-to-finish, from microphones, studio arms and headphones to complete, all-in-one production
+                    studios.</p>
+                <a href="#" class="btn btn-light mt-3 w-50 rounded-pill button2">EXPLORE THE RANGE</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/podcast.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center text-white">
+                <br>
+                <img src="./image/THE PODCASTING RANGE-white.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Your Podcast Starts Here</h1>
+                <p>Our industry-leading range of podcasting equipment offers everything you need to record a podcast
+                    start-to-finish, from microphones, studio arms and headphones to complete, all-in-one production
+                    studios.</p>
+                <a href="#" class="btn btn-light mt-3 w-50 rounded-pill button2 mb-3">EXPLORE THE RANGE</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid phoneCage p-2 p-md-0">
+        <!-- Section 6 -->
+        <div
+            class="row d-flex justify-content-end align-items-center wireless-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-white d-none d-lg-block">
+                <img src="./image/Phone Cage_Logo_PL_PI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Level Up Your Mobile Content</h1>
+                <p>Rugged, lightweight and ultra-versatile filmmaking accessories designed to elevate your content.</p>
+                <a href="#" class="btn btn-light mt-3 w-50 rounded-pill button2">MOUNTS & GRIPS</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/phonecage.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center text-white">
+                <br>
+                <img src="./image/Phone Cage_Logo_PL_PI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Level Up Your Mobile Content</h1>
+                <p>Rugged, lightweight and ultra-versatile filmmaking accessories designed to elevate your content.</p>
+                <a href="#" class="btn btn-light mt-3 w-50 rounded-pill button2 mb-3">MOUNTS & GRIPS</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mic p-2 p-md-0">
+        <!-- Section 7 -->
+        <div
+            class="row d-flex justify-content-end align-items-center caster-parent border-dark position-relative m-0 w-100">
+            <div class="col-md-6 col-12 content-overlay text-center position-absolute text-white d-none d-lg-block">
+                <img src="./image/NT1SS_PL_PMI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Your New Go-to Studio Mic</h1>
+                <p>The NT1 Signature Series is a workhorse studio condenser microphone with a warm, silky character,
+                    exceptionally low noise and high SPL handling – ideal in a wide range of studio applications.</p>
+                <a href="#" class="btn btn-light mt-3 w-25 rounded-pill button3">BUY NOW</a>
+            </div>
+            <!-- Image and content for small screens -->
+            <div class="col-12 d-lg-none p-0 m-0">
+                <img src="./image2/nt1.jpg" alt="background" class="img-fluid w-100">
+            </div>
+            <div class="col-12 d-lg-none text-center text-white">
+                <br>
+                <img src="./image/NT1SS_PL_PMI_01.svg" alt="rode" class="w-75">
+                <br><br>
+                <h1>Your New Go-to Studio Mic</h1>
+                <p>The NT1 Signature Series is a workhorse studio condenser microphone with a warm, silky character,
+                    exceptionally low noise and high SPL handling – ideal in a wide range of studio applications.</p>
+                <a href="#" class="btn btn-light mt-3 w-25 rounded-pill button3 mb-3">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Blog Section -->
+        <div class="text-center mb-5">
+            <h1>Latest From The RØDE Blog</h1>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://edge.rode.com/images/page/1/modules/10272/rode-rodecaster-pro-II-white-tree-quarter-podcast-8192x5464-rgb-1080x1080-7883f16.jpg"
+                        class="card-img-top" alt="photo1">
+                    <div class="card-body">
+                        <h5 class="card-title">Introducing the RØDECaster Pro II in White</h5>
+                        <p class="card-text">The RØDECaster Pro II joins the rest of the RØDE White Collection,
+                            including the PodMic, Wireless ME, PSA1+, NTH-100 and RØDECaster Duo.</p>
+                        <a href="#" class="btn btn-dark rounded-pill button4">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://edge.rode.com/images/page/1/modules/10208/rode-wireless-eco-system-8192x5464-rgb-1080x1080-7b3131c.jpg"
+                        class="card-img-top" alt="photo2">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Record a Wireless Podcast</h5>
+                        <p class="card-text">In this article, we’ll take a look at how to set up and record a wireless
+                            podcast using the RØDECaster Pro II or RØDECaster Duo and our wireless microphone systems.
+                        </p>
+                        <a href="#" class="btn btn-dark rounded-pill button4">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://edge.rode.com/images/page/1/modules/10208/rode-podcast-bundle-duo-PB21-A-0154-1080x1080-91f9291.jpg"
+                        class="card-img-top" alt="photo3">
+                    <div class="card-body">
+                        <h5 class="card-title">How to Make a Video Podcast with Your iPhone</h5>
+                        <p class="card-text">In this article, we’re going to show you a few simple tricks for creating
+                            video content for your podcast with your iPhone.</p>
+                        <a href="#" class="btn btn-dark rounded-pill button4">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="https://edge.rode.com/images/page/1/modules/10129/rode-interview-pro-wireless-pairing-shot-03-8192x5464-rgb-1080x1080-156cc6b.jpg"
+                        class="card-img-top" alt="photo4">
+                    <div class="card-body">
+                        <h5 class="card-title">Introducing the Interview PRO, Phone Cage and Magnetic Mount</h5>
+                        <p class="card-text">Announcing a broadcast-quality wireless handheld microphone and two premium
+                            smartphone filmmaking accessories.</p>
+                        <a href="#" class="btn btn-dark rounded-pill button4">LEARN MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RØDE Range Section -->
+    <section class="container my-5 text-center">
+        <h1>Explore The RØDE Range</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5364%2Fmicrophones-text.svg"
+                    alt="Microphones" class="img-fluid microphone">
+            </div>
+            <div class="col-md-12">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5366%2Finterfaces-text.svg"
+                    alt="Interfaces" class="img-fluid interfaces">
+            </div>
+            <div class="col-md-12">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5365%2Fsoftware-text.svg" alt="Software"
+                    class="img-fluid software-module">
+            </div>
+            <div class="col-md-12">
+                <img src="https://edge.rode.com/images%2Fpage%2F1%2Fmodules%2F5368%2Faccessories-text.svg"
+                    alt="Accessories" class="img-fluid accessories ">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Footer -->
+    <footer class="bg-white py-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 row-cols-lg-5">
+                <div class="col">
+                    <img src="./image/last-rode.png" alt="" width="50%">
+                </div>
+                <div class="col footer-links">
+                    <h5>
+                        <a class="btn btn-link p-0 text-decoration-none d-md-none text-dark" data-bs-toggle="collapse"
+                            href="#productsCollapse" role="button" aria-expanded="false"
+                            aria-controls="productsCollapse">
+                            <b>Products</b>
+                        </a>
+                        <span class="d-none d-md-block text-dark">Products</span>
+                    </h5>
+
+                    <!-- Collapsible content -->
+                    <div class="collapse d-md-block" id="productsCollapse">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Microphones</a></li>
+                            <li><a href="#">Headphones</a></li>
+                            <li><a href="#">Interfaces and Mixers</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Apps</a></li>
+                            <li><a href="#">Apparel</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col footer-links">
+                    <!-- Heading with toggle only for mobile -->
+                    <h5>
+                        <a class="btn btn-link p-0 text-decoration-none d-md-none text-dark" data-bs-toggle="collapse"
+                            href="#serviceCollapse" role="button" aria-expanded="false" aria-controls="serviceCollapse">
+                            <b>Service</b>
+                        </a>
+                        <span class="d-none d-md-block text-dark">Service</span>
+                    </h5>
+
+                    <!-- Collapsible content for mobile, always visible for larger screens -->
+                    <div class="collapse d-md-block" id="serviceCollapse">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Support Centre</a></li>
+                            <li><a href="#">Warranty</a></li>
+                            <li><a href="#">Where to Buy</a></li>
+                            <li><a href="#">Authorised Dealers</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col footer-links">
+                    <h5>
+                        <a class="btn btn-link p-0 text-decoration-none d-md-none text-dark" data-bs-toggle="collapse"
+                            href="#companyCollapse" role="button" aria-expanded="false" aria-controls="companyCollapse">
+                            <b>Company</b>
+                        </a>
+                        <span class="d-none d-md-block">Company</span>
+                    </h5>
+
+                    <!-- Collapsible content for mobile, always visible for larger screens -->
+                    <div class="collapse d-md-block" id="companyCollapse">
+                        <ul class="list-unstyled">
+                            <li><a href="#">About RØDE</a></li>
+                            <li><a href="#">News and Info</a></li>
+                            <li><a href="#">Career Opportunities</a></li>
+                        </ul>
+                    </div>
+                    <div class="col footer-links">
+                        <!-- Heading with toggle only for mobile -->
+                        <h5>
+                            <a class="btn btn-link p-0 text-decoration-none d-md-none text-dark"
+                                data-bs-toggle="collapse" href="#accountCollapse" role="button" aria-expanded="false"
+                                aria-controls="accountCollapse">
+                                <b>Account</b>
+                            </a>
+                            <span class="d-none d-md-block">Account</span>
+                        </h5>
+
+                        <!-- Collapsible content for mobile, always visible for larger screens -->
+                        <div class="collapse d-md-block" id="accountCollapse">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Create Account</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <h5>Subscribe to our latest news and offers</h5>
+                    <a href="#" class="btn btn-dark rounded-pill w-50">Subscribe</a>
+                </div>
+            </div>
+            <div class="container mt-2 py-3">
+                <hr>
+                <div class="row row-cols-1 row-cols-md-3 ">
+                    <div class="col">
+                        <p>© 2024 RØDE All Rights Reserved.</p>
+                    </div>
+                    <div class="col">
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+                    </div>
+                    <div class="col icons mt-2 mt-md-0">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="#"><i class="fa-solid fa-message"></i></a>
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
